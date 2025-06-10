@@ -1,5 +1,6 @@
-@use "variables" as *; 
-@use "mixins";
+@use "variables" as *;
+
+@use "mixins" as *;
 
 .excel__header {
     position: absolute;
@@ -33,6 +34,6 @@
     }
 
     .button {
-        @include mixins.button(red);
+        @include button(red);
     }
 }

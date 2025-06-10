@@ -12,30 +12,30 @@ export class Toolbar extends ExcelComponent {
 
     toHTML() {
         return `
-        <div class="button">
+      <div class="button">
         <i class="material-icons">format_align_left</i>
-        </div>
+      </div>
 
-        <div class="button">
+      <div class="button">
         <i class="material-icons">format_align_center</i>
-        </div>
+      </div>
 
-        <div class="button">
+      <div class="button">
         <i class="material-icons">format_align_right</i>
-        </div>
+      </div>
 
-        <div class="button">
+      <div class="button">
         <i class="material-icons">format_bold</i>
-        </div>
+      </div>
 
-        <div class="button">
+      <div class="button">
         <i class="material-icons">format_italic</i>
-        </div>
+      </div>
 
-        <div class="button">
+      <div class="button">
         <i class="material-icons">format_underlined</i>
-        </div>
-        `;
+      </div>
+    `;
     }
 
     onClick(event) {

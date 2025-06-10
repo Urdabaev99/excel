@@ -1,5 +1,5 @@
-@use "variables";
-@use "mixins";
+@use "variables" as *;
+@use "mixins" as *;
 
 .db {
     &__header {
@@ -7,7 +7,7 @@
         left: 0;
         right: 0;
         top: 0;
-        height: variables.$db-header-height;
+        height: $db-header-height;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -17,7 +17,7 @@
     }
 
     &__new {
-        margin-top: variables.$db-header-height;
+        margin-top: $db-header-height;
         padding: 1.5rem;
         background: #dadce0;
     }
@@ -63,7 +63,7 @@
     }
 
     &__list {
-        @include mixins.clear-list;
+        @include clear-list;
     }
 
     &__record {
